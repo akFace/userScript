@@ -11,7 +11,7 @@
 // @run-at       document-start
 // @namespace    https://greasyfork.org/scripts/413593
 // @supportURL   https://greasyfork.org/zh-CN/users/1368522
-// @homepageURL  https://github.com/akFace
+// @homepageURL  https://github.com/akFace/userScript
 // @downloadURL https://update.greasyfork.org/scripts/508672/%E6%8A%96%E9%9F%B3%E5%85%A8%E5%B1%8F.user.js
 // @updateURL https://update.greasyfork.org/scripts/508672/%E6%8A%96%E9%9F%B3%E5%85%A8%E5%B1%8F.meta.js
 // ==/UserScript==
