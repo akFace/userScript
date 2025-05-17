@@ -4,6 +4,8 @@
 
 ## 抖音网页版全屏 16:9 显示，并且自动清屏。
 
+#### 抖音全屏优化，自动清屏，自动选择最高分辨率/隐藏控制栏/侧边栏/搜索栏-抖音网页版优化
+
 - 文件：`Douyin-Quanping.user.js`
 - 安装地址：[https://greasyfork.org/zh-CN/scripts/508672](https://greasyfork.org/zh-CN/scripts/508672)
 
