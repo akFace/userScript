@@ -57,7 +57,7 @@
     }
   );
   GM_registerMenuCommand("📣问题反馈", () => {
-    window.location.href = "https://github.com/akFace/userScript";
+    window.open("https://github.com/akFace/userScript/issues");
   });
 
   // 更新样式
