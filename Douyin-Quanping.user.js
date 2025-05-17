@@ -32,7 +32,7 @@
   };
 
   GM_registerMenuCommand(
-    state.showSide ? "💡隐藏侧边栏" : "💡显示侧边栏",
+    state.showSide ? "💡隐藏侧边栏(仅全屏生效)" : "💡显示侧边栏(仅全屏生效)",
     () => {
       state.showSide = !state.showSide;
       localStorage.setItem(CONFIG.side, state.showSide);
@@ -41,9 +41,7 @@
     }
   );
   GM_registerMenuCommand(
-    `⏳设置自动清屏倒计时(默认${ConstClearTime}毫秒=${
-      ConstClearTime / 1000
-    }秒)`,
+    `⏳设置自动清屏倒计时(默认${ConstClearTime / 1000}秒)`,
     () => {
       const input = prompt(
         `自动清屏倒计时长, 当前值: ${state.clearTime}毫秒=${
