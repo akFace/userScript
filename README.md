@@ -25,8 +25,17 @@
 
 ## MusicFree 音乐播放器插件
 
-- 文件：`https://raw.githubusercontent.com/akFace/userScript/refs/heads/master/plugins.json`
-- [MusicFree](https://github.com/maotoumao/MusicFree)
+- 文件：
+  
+   国际
+   ```javascipt
+    https://raw.githubusercontent.com/akFace/userScript/refs/heads/master/plugins.json
+   ```
+   国内
+  ```javascipt
+  https://gh-proxy.com/raw.githubusercontent.com/akFace/userScript/refs/heads/master/plugins.json
+  ```
+- [MusicFree播放器](https://github.com/maotoumao/MusicFree)
 
 ---
 
