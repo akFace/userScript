@@ -163,7 +163,6 @@
     let isCleared = false;
     let lastClearTime = 0;
     let minClearInterval = state.clearTime; // 最小清屏间隔时间（毫秒）
-    console.log(">>>>>>>>>>>>>>>>", minClearInterval);
     if (minClearInterval === 0) {
       return;
     }
