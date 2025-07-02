@@ -12,6 +12,9 @@
 
 - 文件：`Douyin-Quanping.user.js`
 - 安装地址：[https://greasyfork.org/zh-CN/scripts/508672](https://greasyfork.org/zh-CN/scripts/508672)
+- 设置方式
+
+  ![image](https://raw.githubusercontent.com/akFace/userScript/master/images/Snipaste_2025-07-02_16-52-09.jpg)
 
 ### 开启前后对比
 
@@ -26,16 +29,20 @@
 ## MusicFree 音乐播放器插件
 
 - 文件：
-  
-   国际
-   ```javascipt
-    https://raw.githubusercontent.com/akFace/userScript/refs/heads/master/plugins.json
-   ```
-   国内
+
+  国际
+
+  ```javascipt
+   https://raw.githubusercontent.com/akFace/userScript/refs/heads/master/plugins.json
+  ```
+
+  国内
+
   ```javascipt
   https://gh-proxy.com/raw.githubusercontent.com/akFace/userScript/refs/heads/master/plugins.json
   ```
-- [MusicFree播放器](https://github.com/maotoumao/MusicFree)
+
+- [MusicFree 播放器](https://github.com/maotoumao/MusicFree)
 
 ---
 
