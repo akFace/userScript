@@ -2,7 +2,7 @@
 
 ---
 
-### 抖音网页版全屏优化 16:9 显示，自动清屏/自动选择最高分辨率/隐藏控制栏/侧边栏/搜索栏-抖音网页版优化
+## 抖音网页版全屏优化 16:9 显示，自动清屏/自动选择最高分辨率/隐藏控制栏/侧边栏/搜索栏-抖音网页版优化
 
 ✅ 全屏 16:9 显示 <br />
 ✅ 隐藏控制栏/搜索栏 <br />
@@ -49,3 +49,30 @@
 ## 115 网盘直链
 
 - 文件： `fake115d.user.js`
+
+## 全局回到顶部（Back To Top）
+
+- 文件： `BackTop.user.js`
+
+- 安装地址：[https://greasyfork.org/zh-CN/scripts/561252](https://greasyfork.org/zh-CN/scripts/561252)
+
+- 网站向下滚动时，出现回到顶部按钮，点击回到顶部 Back To Top
+
+![image](https://hub.gitmirror.com/github.com/akFace/picx-images-hosting/raw/master/Tools/pasted-svg.32ifznbp8l.webp)
+
+- 如果不想要全部网站显示，编辑脚本，删除以下代码
+
+```
+// @match        http://*/*
+// @match        https://*/*
+```
+
+<br>
+
+- 需要的网站添加
+
+```
+// 示例：YouTube 下方添加自己需要的网站即可，比如 B 站*://*.bilibili.com/
+// @match        *://*.youtube.com/*
+// @match        *://*.bilibili.com/*
+```
