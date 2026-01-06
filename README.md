@@ -56,7 +56,7 @@
 
 - 安装地址：[https://greasyfork.org/zh-CN/scripts/561252](https://greasyfork.org/zh-CN/scripts/561252)
 
-- 网站向下滚动时，出现回到顶部按钮，点击回到顶部 Back To Top
+- 网站向下滚动时，出现回到顶部按钮，点击回到顶部 Back To Top，支持 YouTube、GitHub、steam、reddit、instagram、推特 x 等等所有网站
 
 ![image](https://hub.gitmirror.com/github.com/akFace/picx-images-hosting/raw/master/Tools/pasted-svg.32ifznbp8l.webp)
 
