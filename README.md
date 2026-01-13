@@ -58,21 +58,19 @@
 
 - 网站向下滚动时，出现回到顶部按钮，点击回到顶部 Back To Top，支持 YouTube、GitHub、steam、reddit、instagram、推特 x 等等所有网站
 
-![image](https://hub.gitmirror.com/github.com/akFace/picx-images-hosting/raw/master/Tools/pasted-svg.32ifznbp8l.webp)
+![image](https://github.com/akFace/picx-images-hosting/raw/master/Tools/pasted-svg.32ifznbp8l.webp)
 
 - 如果不想要全部网站显示，编辑脚本，删除以下代码
 
-```
+```js
 // @match        http://*/*
 // @match        https://*/*
 ```
 
-<br>
-
 - 需要的网站添加
 
-```
-// 示例：YouTube 下方添加自己需要的网站即可，比如 B 站*://*.bilibili.com/
+```js
+// 示例：YouTube 下方添加自己需要的网站即可，比如 B 站*://*.bilibili.com/*
 // @match        *://*.youtube.com/*
 // @match        *://*.bilibili.com/*
 ```
