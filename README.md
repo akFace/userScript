@@ -2,15 +2,16 @@
 
 ---
 
-## 抖音网页版全屏优化 16:9 显示，自动清屏/自动选择最高分辨率/隐藏控制栏/侧边栏/搜索栏-抖音网页版优化
+## 抖音/快手网页版全屏优化 16:9 显示，自动清屏/自动选择最高分辨率/隐藏控制栏/侧边栏/搜索栏-抖音|快手网页版优化
 
 ✅ 全屏 16:9 显示 <br />
 ✅ 隐藏控制栏/搜索栏 <br />
 ✅ 自动选择最高分辨率 <br />
 ✅ 自定义倒计时自动清屏 <br />
-✅ 自定义显示/隐藏侧边栏
+✅ 自定义显示/隐藏侧边栏 <br />
+✅ 支持：抖音、快手 <br />
 
-- 文件：`Douyin-Quanping.user.js`
+- 文件：`DY-KS-Quanping.user.js`
 - 安装地址：[https://greasyfork.org/zh-CN/scripts/508672](https://greasyfork.org/zh-CN/scripts/508672)
 - 设置方式
 
@@ -23,6 +24,20 @@
 
 - 开启后
   ![image](https://raw.githubusercontent.com/akFace/userScript/master/images/Snipaste_2024-09-16_22-00-42.jpg)
+
+---
+
+## 通用视频嗅探下载器
+
+- 文件：`DownloadVideo.user.js`
+- 安装地址：[https://github.com/akFace/userScript/raw/refs/heads/master/DownloadVideo.user.js](https://github.com/akFace/userScript/raw/refs/heads/master/DownloadVideo.user.js)
+- 可下载绝大多数网页在线视频
+- 设置方式
+  ![image](https://raw.githubusercontent.com/akFace/userScript/master/images/Snipaste_2026-07-12_15-19-46.jpg)
+
+- 修改了不主动嗅探功能，在需要的时候手动点击即可
+
+- 原版作者地址：[查看](https://greasyfork.org/scripts/557721)，若有其他需求请反馈给原作者
 
 ---
 
