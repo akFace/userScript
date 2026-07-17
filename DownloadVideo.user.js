@@ -112,12 +112,8 @@
 
   GM_registerMenuCommand(`${T.menu_set_start}`, () => {
     setTimeout(() => {
-      if (MyUI?.root) {
-        MyUI.root.classList.add("d-js-show");
-      } else {
-        alert(T.video_found_tips);
-      }
-    }, 1500);
+      MyUI?.root?.classList.add("d-js-show");
+    }, 2000);
   });
   GM_registerMenuCommand(`${T.menu_set_threads} (${Config.maxThreads})`, () => {
     const input = prompt(T.prompt_threads, Config.maxThreads);
