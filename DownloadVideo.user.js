@@ -50,6 +50,7 @@
         "下载失败：数据量过小或内存优化导致无法回退到 TS 格式。",
       progress_parsing: "解析中...",
       progress_key: "获取密钥...",
+      video_found_tips: "未检测到视频资源，请刷新页面后再尝试。",
     },
     en: {
       title: "Sniffer",
@@ -73,10 +74,12 @@
         "Download failed: Data too small or memory optimization prevented fallback.",
       progress_parsing: "Parsing...",
       progress_key: "GetKey...",
+      video_found_tips: "No video found. Please refresh and try again.",
     },
   };
   const T = Locales[Lang];
   let MySniffer = null;
+  let MyUI = null;
 
   // ==========================================
   // 1. 全局配置 (Configuration)
@@ -108,7 +111,13 @@
   };
 
   GM_registerMenuCommand(`${T.menu_set_start}`, () => {
-    MySniffer.start();
+    setTimeout(() => {
+      if (MyUI?.root) {
+        MyUI.root.classList.add("d-js-show");
+      } else {
+        alert(T.video_found_tips);
+      }
+    }, 1500);
   });
   GM_registerMenuCommand(`${T.menu_set_threads} (${Config.maxThreads})`, () => {
     const input = prompt(T.prompt_threads, Config.maxThreads);
@@ -655,6 +664,7 @@
                     border: 1px solid ${Config.colors.primary}; border-radius: 6px;
                     backdrop-filter: blur(5px); display: flex; flex-direction: column;
                     box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+                    display: none;
                 }
                 .head { padding: 8px; background: rgba(255,255,255,0.1); display: flex; justify-content: space-between; align-items: center; cursor: move; }
                 .title { font-weight: bold; color: ${Config.colors.primary}; }
@@ -670,6 +680,7 @@
                 .box.min { width: 40px; height: 40px; border-radius: 50%; justify-content: center; align-items: center; overflow: hidden; }
                 .box.min .list, .box.min .title { display: none; }
                 .toggle { font-size: 16px; padding: 0 5px; cursor: pointer; }
+                .box.d-js-show { display: flex; }
             `;
 
       const toggleBtn = Utils.createElement("span", { class: "toggle" }, "－");
@@ -788,5 +799,6 @@
     }
   }
   MySniffer = new Sniffer();
-  new UI();
+  MySniffer.start();
+  MyUI = new UI();
 })();
