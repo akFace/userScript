@@ -5,17 +5,13 @@
 ## 抖音/快手网页版全屏优化 16:9 显示，自动清屏/自动选择最高分辨率/隐藏控制栏/侧边栏/搜索栏-抖音|快手网页版优化
 
 ✅ 全屏 16:9 显示 <br />
-✅ 隐藏控制栏/搜索栏 <br />
+✅ 自动隐藏控制栏/搜索栏 <br />
+✅ 自动隐藏侧边栏、进度条、视频详情信息 <br />
 ✅ 自动选择最高分辨率 <br />
-✅ 自定义倒计时自动清屏 <br />
-✅ 自定义显示/隐藏侧边栏 <br />
 ✅ 支持：抖音、快手 <br />
 
 - 文件：`DY-KS-Quanping.user.js`
 - 安装地址：[https://greasyfork.org/zh-CN/scripts/508672](https://greasyfork.org/zh-CN/scripts/508672)
-- 设置方式
-
-  ![image](https://raw.githubusercontent.com/akFace/userScript/master/images/Snipaste_2025-07-02_16-52-09.jpg)
 
 ### 开启前后对比
 
